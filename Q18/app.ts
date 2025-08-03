@@ -5,7 +5,7 @@ let places:string[]= ["America", "Canada", "Sweden", "Japan", "China"]
 
 console.log("Original Order:", places)
 
-console.log("Alphabetical Order:", [...places] .sort() ) // [...places].sort for alphabetical order 
+console.log("Alphabetical Order:", [places] .sort() ) // [...places].sort for alphabetical order 
 
 console.log("Reverse Alphabetical Order:", [...places].sort().reverse())
 

@@ -7,5 +7,9 @@ function show_magicians (magician_names : string[]){
   magician_names.forEach(magician_name => {
    console.log(`The ${magician_name} is a famous magician.`)
 })
+
+// for (let one of magician_names){
+//   console.log(one)
+// }
 }
 show_magicians (magician_names)
